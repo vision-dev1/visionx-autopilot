@@ -48,40 +48,41 @@ This project transforms VisionX OS into a **guided, smart, and lightweight** pen
 Clone the repository:
 
 ```bash
-git clone https://github.com/<yourusername>/visionx-autopilot.git
+git clone https://github.com/vision-dev1/visionx-autopilot.git
 cd visionx-autopilot
+```
 
-Install dependencies and setup:
+---
 
+### Install dependencies and setup:
 python3 setup.py install
-
 ⚠️ Requires Python 3.x and a Linux environment (Debian/Ubuntu recommended).
 Dependencies for autopwn tools will be installed automatically by the Lazy Installer.
 
 ---
 
-🔹 Usage
+### 🔹 Usage
 
-Run the full automated scan:
+- Run the full automated scan:
 
 visionx autopwn <target>
 
-Check the target profile separately:
+- Check the target profile separately:
 
 visionx profile <target>
 
-Generate a report (HTML/PDF):
+- Generate a report (HTML/PDF):
 
 visionx report <target>
 
 Autopwn will automatically install any missing tools as needed.
 
-🔹 Requirements
+## 🔹 Requirements
 Python 3.x
 Linux OS (Debian/Ubuntu recommended)
 Network tools (installed automatically if missing via Lazy Installer)
 
-###🔹 Folder Structure
+## 🔹Folder Structure
 visionx-autopilot/
 ├── autopwn/            # Core automation engine
 ├── lazy_installer/     # Scripts for detecting/installing tools
@@ -91,7 +92,8 @@ visionx-autopilot/
 ├── visionx_cli.py      # Main CLI entry point
 ├── requirements.txt    # Python dependencies
 └── README.md
-🔹 Contributing
+
+## 🔹 Contributing
 
 Contributions are welcome!
 Please ensure:
@@ -102,13 +104,13 @@ New tools are integrated with autopwn and lazy installer
 
 Submit pull requests or open issues for suggestions and improvements.
 
-🔹 License
+## 🔹 License
 
 This project is licensed under the MIT License.
 See LICENSE
  for details.
 
-🔹 Example Output
+## 🔹 Example Output
 $ visionx autopwn example.com
 
 [+] Target: example.com
@@ -120,5 +122,3 @@ $ visionx autopwn example.com
 
 Full report available: visionx report example.com
 
-
----
