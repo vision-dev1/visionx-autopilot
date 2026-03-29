@@ -1,6 +1,6 @@
 # VisionX Autopilot
 
-**VisionX Autopilot** is the core automation engine of **VisionX OS**, designed to streamline penetration testing and security workflows. It integrates **four powerful features** : autopwn, target profiling, lazy installer, and report generation—into a single, intelligent, modular system.
+**VisionX Autopilot** is the core automation engine of **VisionX OS**, designed to streamline penetration testing and security workflows. It integrates **four powerful features** : autopwn, target profiling, lazy installer, and report generation into a single, intelligent, modular system.
 
 This project transforms VisionX OS into a **guided, smart, and lightweight** penetration testing platform, making security assessments faster and more actionable.
 
