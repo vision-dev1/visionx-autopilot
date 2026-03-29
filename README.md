@@ -82,16 +82,6 @@ Python 3.x
 Linux OS (Debian/Ubuntu recommended)
 Network tools (installed automatically if missing via Lazy Installer)
 
-## 🔹Folder Structure
-visionx-autopilot/
-├── autopwn/            # Core automation engine
-├── lazy_installer/     # Scripts for detecting/installing tools
-├── profile/            # Target profiling scripts
-├── report/             # HTML/PDF report generator
-├── utils/              # Shared helper functions
-├── visionx_cli.py      # Main CLI entry point
-├── requirements.txt    # Python dependencies
-└── README.md
 
 ## 🔹 Contributing
 
