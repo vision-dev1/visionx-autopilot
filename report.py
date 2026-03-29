@@ -136,7 +136,7 @@ def generate_report(target):
 
 <div class="section">
     <h2>🔓 Open Ports</h2>
-    <pre>{'chr(10).join(open_ports) if open_ports else 'No open ports found'}</pre>
+    <pre>{chr(10).join(open_ports) if open_ports else "No open ports found"}</pre>
 </div>
 
 <div class="section">
